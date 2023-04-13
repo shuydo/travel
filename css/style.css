@@ -1,0 +1,179 @@
+body {
+  max-width: 1740px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #868686;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.btn {
+  background: linear-gradient(323.15deg, #2262b9 -116.82%, #2ab7fa 149.41%);
+  color: white;
+  padding: 32px 24px;
+  border-radius: 45px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 29px 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+header .btn {
+  margin-left: 68px;
+}
+header img {
+  margin-top: -4px;
+}
+header nav {
+  margin-left: auto;
+}
+header .nav {
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+}
+header .nav li:not(:last-child) {
+  margin-right: 78px;
+}
+header .nav-link {
+  color: #868686;
+  letter-spacing: 0.7px;
+}
+
+main {
+  margin-top: 8px;
+  text-align: center;
+}
+main h1 {
+  margin: 0;
+  font-size: 94px;
+  font-weight: 700;
+  color: #404041;
+}
+main p {
+  max-width: 888px;
+  font-size: 24px;
+  line-height: 1.8333333333;
+  margin: 16px auto 0;
+  letter-spacing: 1px;
+}
+main .btn {
+  border: none;
+  background: linear-gradient(138.53deg, #2ab7fa -32.83%, #2262b9 190.72%);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 45px 63px;
+  margin-top: 24px;
+}
+
+@media (max-width: 1366px) {
+  body {
+    max-width: 1366px;
+  }
+  .btn {
+    padding: 21px 17px;
+    font-size: 21px;
+  }
+  header .btn {
+    margin-left: 48px;
+  }
+  header .nav {
+    font-size: 18px;
+  }
+  header .nav li:not(:last-child) {
+    margin-right: 55px;
+  }
+  main img {
+    width: 908px;
+  }
+  main h1 {
+    font-size: 67px;
+  }
+  main p {
+    max-width: 630px;
+    font-size: 17px;
+  }
+  main .btn {
+    font-size: 21px;
+    padding: 32px 45px;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+  }
+  .btn {
+    padding: 16px 13px;
+    font-size: 16px;
+  }
+  header .btn {
+    margin-left: 36px;
+  }
+  header .nav {
+    font-size: 14px;
+  }
+  header .nav li:not(:last-child) {
+    margin-right: 41px;
+  }
+  main img {
+    width: 680px;
+  }
+  main h1 {
+    font-size: 50px;
+  }
+  main p {
+    max-width: 473px;
+    font-size: 13px;
+  }
+  main .btn {
+    font-size: 16px;
+    padding: 24px 34px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+  .btn {
+    padding: 12px 10px;
+    font-size: 12px;
+  }
+  header .btn {
+    margin-left: 21px;
+  }
+  header .nav {
+    font-size: 11px;
+  }
+  header .nav li:not(:last-child) {
+    margin-right: 31px;
+  }
+  main img {
+    width: 510px;
+  }
+  main h1 {
+    font-size: 38px;
+  }
+  main p {
+    max-width: 355px;
+    font-size: 10px;
+  }
+  main .btn {
+    font-size: 12px;
+    padding: 18px 26px;
+  }
+}/*# sourceMappingURL=style.css.map */

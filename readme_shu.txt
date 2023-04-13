@@ -1,0 +1,1 @@
+Ctrl+E - text to svg in figma
